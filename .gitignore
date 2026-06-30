@@ -1,0 +1,35 @@
+# المكتبات
+node_modules/
+package-lock.json
+yarn.lock
+
+# متغيرات البيئة
+.env
+.env.local
+.env.*.local
+
+# البيانات المحلية
+database/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# السجلات
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# نظام التشغيل
+.DS_Store
+Thumbs.db
+
+# ملفات أخرى
+.history/
+.cache/
+dist/
+build/
