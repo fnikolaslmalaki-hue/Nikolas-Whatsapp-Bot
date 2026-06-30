@@ -1,0 +1,28 @@
+{
+  "name": "nikolas-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "بوت واتساب لإدارة المجموعات مع ميزات متقدمة",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "group-manager",
+    "automation"
+  ],
+  "author": "NIKOLAS",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.3.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "qrcode": "^1.5.3",
+    "pino": "^8.16.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

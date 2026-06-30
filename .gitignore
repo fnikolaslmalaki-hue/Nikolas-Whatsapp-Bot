@@ -10,6 +10,7 @@ yarn.lock
 
 # البيانات المحلية
 database/
+credentials/
 .wwebjs_auth/
 .wwebjs_cache/
 
@@ -33,3 +34,4 @@ Thumbs.db
 .cache/
 dist/
 build/
+qr.html
